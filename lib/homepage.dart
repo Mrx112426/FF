@@ -11,8 +11,8 @@ class HomePage extends StatelessWidget {
         child: Stack(
           children: <Widget>[
             Positioned(
-              top: 0,
-              right: 30,
+              top: 30,
+              right: 150,
               child: Container(
                 width: 100,
                 height: 100,
@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                   Column(
                     children: <Widget>[
                       SizedBox(
-                        height: 50,
+                        height: 100,
                       ),
                       Text(
                         "Добро пожаловать",
@@ -44,17 +44,7 @@ class HomePage extends StatelessWidget {
                           fontSize: 30,
                         ),
                       ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Text(
-                        "Это приложение FF для создания событий",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: Colors.grey[700],
-                          fontSize: 15,
-                        ),
-                      )
+
                     ],
                   ),
                   Container(
